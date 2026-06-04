@@ -1,0 +1,28 @@
+Firewall Configuration and Rule Management Summary
+
+During this activity, I practiced basic firewall administration by configuring and testing firewall rules on a Windows/Linux system.
+
+
+Tasks Completed
+
+1. Opened the firewall management tool (Windows Firewall/UFW terminal).
+2. Viewed and examined existing firewall rules to understand the current security configuration.
+3. Created a new inbound rule to block traffic on port 23 (Telnet).
+4. Tested the rule by attempting a connection to the blocked port and verified that the firewall denied the traffic as expected.
+5. Added an SSH allow rule (port 22) on Linux systems to ensure secure remote administration remained available.
+6. Removed the temporary Telnet block rule after testing to restore the original firewall state.
+7. Documented all commands and configuration steps used throughout the process.
+
+
+What I Learned
+
+~ Firewalls control network access by examining incoming and outgoing traffic and comparing it against predefined security rules.
+~ Blocking unnecessary ports reduces the attack surface and improves system security.
+~ Allow rules are essential for permitting legitimate services such as SSH.
+~ Testing firewall changes helps verify that security policies are functioning correctly.
+~ Proper documentation and cleanup of temporary rules are important parts of firewall management.
+
+
+Outcome
+
+This exercise provided hands-on experience with firewall configuration, rule creation and removal, traffic filtering, and security verification. I gained a practical understanding of how firewalls protect systems by allowing authorized traffic while blocking unauthorized network connections.
